@@ -40,6 +40,11 @@ button{
     color: #fff;
 }
 
+button:disabled{
+    background-color: #005bd194;
+    cursor: not-allowed;
+}
+
 button:active{
     transform: scale(0.98);
 }
