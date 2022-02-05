@@ -36,6 +36,8 @@ button{
     padding: 10px 60px;
     cursor: pointer;
     margin: 50px 0;
+    background-color: #023e8a;
+    color: #fff;
 }
 
 button:active{
