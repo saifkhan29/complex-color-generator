@@ -27,6 +27,7 @@ button.addEventListener('click', () => {
     getRandomColor()
     newgenerate()
     randomTimeOut()
+    button.disabled = true
     
     boxes.forEach(box => {
         while (box.hasChildNodes()) {  
@@ -43,6 +44,7 @@ button.addEventListener('click', () => {
         heading.innerText = randomColor
         randomBox.appendChild(heading)
         console.log(timeOut)
+        button.disabled = false
 
     }, timeOut)
     
